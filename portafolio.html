@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio Profesional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Css3 -->
+        <link rel="stylesheet" href="./assets/css/portafolio.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container btn btn-primary">
+            <h1><span>Ivan Vargas</span></h1>
+            <p><span>Full Stack Developer</span></p>
+            <a href="#proyectos" class="btn btn-light mt-2 fw-bold">Ver Proyectos</a>
+        </div>
+        <div class="container btn btn-primary">
+            <a href="./index.html"" class="btn btn-light mt-2 fw-bold">Volver al Inicio</a>
+        </div>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+        <div class="container">
+            <h2 class="text-center mb-4">Sobre mí</h2>
+            <p class="text-center">
+            Soy desarrollador con experiencia en HTML, CSS, JavaScript, Nodejs, TypeScripts, Nestjs y Frontend. Me enfoco en crear soluciones eficientes y modernas.
+            </p>
+        </div>
+    </section>
+
+    
+  <!-- Proyectos -->
+    <section id="proyectos" class="bg-primary">
+            <div class="container">
+              <h2 class="text-center mb-5">Proyectos</h2>
+              <div class="row">
+                
+                  <div class="col-md-4">
+                      <div class="card project-card">
+                        <img src="/assets/img/html5.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 1</h5>
+                                <p class="card-text">Practica en HTML5 Bàsico Modo Curriculum</p>
+                                <a href="https://vn-vrgs.github.io/html5-basico/" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="card project-card">
+                            <img src="./assets/img/css3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 2</h5>
+                                <p class="card-text">Practica en Css modo Land Page.</p>
+                                <a href="https://vn-vrgs.github.io/ladingpage/" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="card project-card">
+                            <img src="./assets/img/bootstrap.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 3</h5>
+                                <p class="card-text">Practica en modo Grilla.</p>
+                                <a href="https://vn-vrgs.github.io/cupones/" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <h2 class="bg-primary text-center">Contacto</h2>
+            <form class="bg-primary mx-auto" style="max-width: 500px;">
+                <input type="text" class="form-control mb-3"    placeholder="Nombre">
+                <input type="email" class="form-control mb-3" placeholder="Correo">
+                <textarea class="form-control mb-3" rows="4" placeholder="Mensaje"></textarea>
+                <button class="btn btn-primary w-100">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright ©2026 Ivan Vargas. All rights reserved.</p> 
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
