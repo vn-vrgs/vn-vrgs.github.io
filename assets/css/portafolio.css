@@ -1,0 +1,44 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Agdasima';
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: blue;
+    padding: 5px;
+    margin: 15px;
+    border: 0px solid blue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+img {
+    margin: 10 auto; 
+    padding: 5px;
+    width: 100px;
+    height: 300px;
+}
+
+header {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.project-card {
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}   }
