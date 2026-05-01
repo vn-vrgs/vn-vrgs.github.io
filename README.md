@@ -5,7 +5,6 @@
 Link de github Page
 # vn-vrgs.github.io
 Construyendo por 2da vez mi portal
-#########################################
 
 # Contenido de Proyecto
 - Pàgina Principal - Curriculum
@@ -16,7 +15,6 @@ Construyendo por 2da vez mi portal
   - Secciòn de Habilidades Tecnicas
   - Secciòm de Portafolio - Con Enlace a 2da Pàgina
   - Secciòn de Contactos
-#######################################
 
 # Protafolios:
 - Curriculum /modo bàsico)
@@ -26,7 +24,6 @@ Construyendo por 2da vez mi portal
 - modo Grilla
   - Aplicando Bootstrap
 - Cada uno con sus respectivos enlaces
-#################################################
 
 # Sobre mi Persona
 - Ivàn Vargas Garcìa
