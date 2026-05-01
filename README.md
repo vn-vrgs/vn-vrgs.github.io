@@ -1,10 +1,10 @@
 ## EXAMEN FINAL
 - Introducciòn a la Programaci+on Web
 - Proyecto Final
-######################################
-Link de github Page
+
+- Link de github Page
 # vn-vrgs.github.io
-Construyendo por 2da vez mi portal
+- Construyendo por 2da vez mi portal
 
 # Contenido de Proyecto
 - Pàgina Principal - Curriculum
@@ -13,10 +13,10 @@ Construyendo por 2da vez mi portal
   - Secciòn de Inicio con imagen
   - Secciòn de Experiencia
   - Secciòn de Habilidades Tecnicas
-  - Secciòm de Portafolio - Con Enlace a 2da Pàgina
+  - Secciòm de Portafolio - Con Enlace a 2da Pàgina Portafolios
   - Secciòn de Contactos
 
-# Protafolios:
+# Portafolios:
 - Curriculum /modo bàsico)
   - Aplicando HTML puro
 - Lading Page
